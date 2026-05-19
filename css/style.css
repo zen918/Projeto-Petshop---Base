@@ -8,6 +8,20 @@
   --radius: 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root{
+    --primaria: #8b5cf6;
+--secundaria: #fbbf24;
+--escuro: #0f172a;
+--claro: #1e293b;
+--texto: #f8fafc;
+--sombra: 0 8px 30px rgba(0, 0, 0, 0.45);
+--radius: 20px;
+    
+  }
+  
+}
+
 * {
   margin: 0;
   padding: 0;
