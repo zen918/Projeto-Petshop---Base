@@ -3,7 +3,7 @@
   --secundaria: #e7a60e;
   --escuro: #000000;
   --claro: #1cb4c8;
-  --texto: #f700ff;
+  --texto: #ff004c;
   --sombra: 0 8px 30px rgba(75, 12, 12, 0.2);
   --radius: 20px;
 }
@@ -261,6 +261,22 @@ footer {
   margin-top: 60px;
 }
 
+.redes-sociais {
+  margin-top: 10px;
+}
+
+.redes-sociais a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.redes-sociais a:hover {
+  color: #ff9800;
+}
+
 /* MAPA */
 iframe {
   width: 100%;
@@ -307,3 +323,4 @@ iframe {
 /* RESPONSIVIDADE - TABLET */
 @media (min-width: 768px) and (max-width: 1200px) {
 }
+
