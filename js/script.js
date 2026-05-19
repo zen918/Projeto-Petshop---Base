@@ -25,3 +25,26 @@ botaoMenu.addEventListener("click", () => {
 });
 
 // ****************************************** //
+
+// ===== TEMA CLARO / ESCURO =====
+
+const themeButton = document.getElementById("theme-toggle");
+
+// verifica tema salvo
+if (localStorage.getItem("tema") === "escuro") {
+  document.body.classList.add("dark");
+  themeButton.textContent = "☀️";
+}
+
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+
+  // se estiver escuro
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("tema", "escuro");
+    themeButton.textContent = "☀️";
+  } else {
+    localStorage.setItem("tema", "claro");
+    themeButton.textContent = "🌙";
+  }
+});
