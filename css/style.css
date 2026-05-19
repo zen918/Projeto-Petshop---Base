@@ -22,7 +22,7 @@ html {
 body {
   color: var(--texto);
   background:
-    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.91)),
+    linear-gradient(rgb(255, 255, 255, 0.91), rgba(255, 255, 255, 0.91)),
     url("../img/fundo.png");
 
   background-attachment: fixed;
@@ -188,7 +188,7 @@ nav a:hover {
 }
 
 .produtos {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(22, 203, 137, 0.8);
   border-radius: var(--radius);
   box-shadow: var(--sombra);
   overflow: hidden;
